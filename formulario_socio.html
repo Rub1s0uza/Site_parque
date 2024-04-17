@@ -9,8 +9,30 @@
 		
 	</head>
 	<body>
-	<h1> Cadastro sócio </h1>
-	<img src = 'img/calendario.gif' alt = 'Gif de calendário'/>
+	<h1 style = 'text-align: center'> Cadastro sócio </h1>
+	
+	<!--Criando o formulario-->
+	<form method = 'post' action = '#'>
+	
+		<label for = "name">Nome completo:</label><br>
+		<input type="text" id="nome" name="name" requerid minlength="3"
+		maxlength="50" placeholder="Digite seu nome completo"><br>
+	
+		<label for= "email">Email:<label><br>
+		<input type="email" id="email" name="email" required placeholder="Digite seu email"><br>
+		
+	
+		<label for="dataNas">Data de Nascimento:</label><br>
+		<input type="datetime" id="dataNas" name="dataNas" pattern="\d{2}\d{2}\d{4}\"
+		required placeholder="00/00/0000"><br>
+	
+	
+	</form>
+	
+	
+	
+	
+	
 	</body>
 
 
