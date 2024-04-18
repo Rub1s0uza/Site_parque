@@ -5,32 +5,32 @@
 	<head>
 		<meta charset = 'utf-8'/>
 		<link rel="stylesheet icon" href="img/favicon.ico">
-		<title>Cadastro Sócio</title>
+		<title>Cadastro </title>
 		
 	</head>
 	
 	
 	
 	<body style ='background-color: pink'>
-	<h1 style = 'text-align: center'> Cadastro sócio </h1>
+	<h1 style = 'text-align: center'> Cadastro </h1>
 	
 	<!--Criando o formulario-->
 	<form method = 'post' action = '#' style='text-align:center'>
 	
 		<label for = "name"> <strong>Nome completo:</strong></label><br>
-		<input type="text" id="nome" name="name" required minlength="3"
+		<input type="text" id="nome" name="name" requerid minlength="3"
 		maxlength="50" placeholder="Digite seu nome completo"><br>
 	
-		<br><label for="dataNas"><strong>Data de Nascimento:</strong></label><br>
-		<input type="date" id="dataNas" name="dataNas"	required ><br>
+		<br><label for="idade"><strong>Idade:</strong></label><br>
+		<input type="number" id="idade" name="idade" min="18" max="120" required placeholder="Sua idade"><br>
 		
-		<br><label for="genero"><strong>Gênero: </strong></label><br>
+		<br><label for="genero"><strong>Gênero:</strong></label><br>
 		<input type="radio" id="genero_masculino" name="genero" value="masculino"required>
 		<label for="genero_masculino"><strong>Maculino</strong><label><br>
 		<input type="radio" id="genero_feminino" name="genero" value="feminino"required>
 		<label for="genero_masculino"><strong>Feminino</strong><label><br>
 		<input type="radio" id="genero_outros" name="genero" value="outros"required>
-		<label for="genero_masculino"><strong>Outros</strong><label><br>
+		<label for="genero_masculino"><strong>Prefiro não informar</strong><label><br>
 	
 		<br><label for= "email"><strong>Email:</strong><label><br>
 		<input type="email" id="email" name="email" required placeholder="Digite seu email"><br>
@@ -46,7 +46,7 @@
 	
 	
 	
-	<br><a href='index.html' > <strong>Voltar </strong></a>
+	<br><a href='index.html' > Voltar </a>
 	
 	</body>
 
