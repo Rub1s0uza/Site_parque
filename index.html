@@ -3,66 +3,103 @@
 <!-- idioma do site portugues-->
 <html lan = 'pt - br'>
 
-	<head >
+	<head class="header">
 		
 		<meta charset = 'utf-8'/>
 		<link rel="stylesheet icon" href="img/favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Adventure Land</title>
-		<meta name='description' content='Criado em 1950 a Adventure Land vem 
+		<meta name='description' content='Criado em 1998 a Adventure Land vem 
 		trazendo grandes emoções sendo umas dos 10 maiores parques do mundo'>
 		<link rel="stylesheet" href="style.css">
+
+
+		
+		
 	</head>
 	
 	
 	<body>
-		<br>
-		<!--Criando pagina socio-->
-		<a href='formulario_socio.html' > Seja um sócio	</a>
-		
-		<!--Criando pagina login-->
-		<div class="right"> <!-- Alinhando a direita -->
-		<a href='login.html' > Login </a><br>
-		<a href='cadastro.html' > Cadastre-se </a>
-	</div>
-		<h1>  <b>Bem vindo ao Parque!</b></h1>
-		
-		 <!-- Colocanco a imagem -->
-			<p><img src="img/barco.png" alt="Barco Viking"></p>
+		<main>
+
+					<!-- Menu Hamburguer -->
+					
+			<br>
+			<!--Criando pagina socio-->
+			<a href='formulario_socio.html' > Seja um sócio	</a>
 			
-		<p>  <strong>Criado em 1998, Adventure Land trouxe grandes aventuras aos que tem coragem de 	se arriscar, <br> 
-		venha experimentar um pouco de nossa adrenalina e criar memórias incríveis. </strong> 
-		</p>
+			<!--Criando pagina login-->
+			<div class="right"> <!-- Alinhando a direita -->
+				<a href='login.html' > Login </a><br>
+				<a href='cadastro.html' > Cadastre-se </a>
+			</div>
 
-		<p><strong>Situada no Espirito Santo, possuimos grandes experiências, diversos brinquedos e atrações. </strong> </p>
-		
-		<p > <!-- Criando nova pagina --> 
-			<a href='atracoes.html' >Atrações </a> &nbsp;&nbsp;
-
-			<a href="valores.html"> Valores</a> &nbsp;&nbsp;
-			<!--Colocando localização pelo maps -->
-			<a href='https://www.google.com/maps/place/Adventure+Land/@-20.3477821,-40.2975277,17z/data=!3m1!4b1!4m6!3m5!1s0xb8172ea7089f2b:0xb69de2109cd98fac!8m2!3d-20
-			.3477821!4d-40.2949528!16s%2Fg%2F11gnsrnjl5?entry=ttu' target = '_blank'>Como chegar </a> &nbsp;&nbsp;
+			<h1>  <b>Bem vindo ao Parque!</b></h1>
 			
-			<a href='fale_conosco.html' > Fale conosco </a> &nbsp;&nbsp;
-	
-		
-		</p>
-	
-		<br><br><br>
-		<br><br>
-		<br><br>
-	
-		<div class="right"> <!-- Alinhando a direita -->
-			<!--Colocando gif-->
-		
-		<h4>	<strong>
-			Horário de funcionamento: <br>
-			Segunda à Sábado: 09:00 às 22:00 <br>
-			Domingos e Feriados: 10:00 às 23:00</strong> 
-		</h4>
-	</div>
+			<div class="conteiner">
+				<!-- Colocanco a imagem -->
+				<p><img src="img/barco.png" alt="Barco Viking"></p>
+					
+					<!-- Seção com cards -->
+			<section class="secao4">
+				<div class="secao4-div">
+					<!-- Card 1 -->
+					<div class="secao4-div-card">
+						<img decoding="async" src="img/carrossel.png" alt="Carrossel">
+						<h3>Sobre</h3>
+						<p> <strong>Criado em 1998, Adventure Land trouxe grandes aventuras aos que tem coragem de 	se arriscar, <br> 
+							venha experimentar um pouco de nossa adrenalina e criar memórias incríveis. </strong></p>
+					</div>
 
+					<!-- Card 2 -->
+					<div class="secao4-div-card">
+						<img decoding="async" src="img/balao.png" alt="Balões">
+						<h3>Atracões</h3>
+						<a href='atracoes.html' > <strong>Conheça algumas de nossas atrações! </strong></a>
+					</div>
 
+					<!-- Card 3 -->
+					<div class="secao4-div-card">
+						<img decoding="async" src="img/mapa_gps.png" alt="Mapa">
+						<h3>Como chegar</h3>
+						<a href='https://www.google.com/maps/place/Adventure+Land/@-20.3477821,-40.2975277,17z/data=!3m1!4b1!4m6!3m5!1s0xb8172ea7089f2b:0xb69de2109cd98fac!8m2!3d-20
+							.3477821!4d-40.2949528!16s%2Fg%2F11gnsrnjl5?entry=ttu' target = '_blank'><strong>Situada no Espirito Santo, possuimos grandes experiências, diversos brinquedos e atrações.</strong> </a>
+					
+					</div>
+				</div>
+			</section>
+
+				
+
+				
+			</div>				
+			<p > <!-- Criando nova pagina --> 
+				 &nbsp;&nbsp;
+
+				<a href="valores.html"> Valores</a> &nbsp;&nbsp;
+				<!--Colocando localização pelo maps -->
+				 &nbsp;&nbsp;
+				
+				<a href='fale_conosco.html' > Fale conosco </a> &nbsp;&nbsp;
+		
+			</p>
+		
+			<br><br><br>
+			<br><br>
+			<br><br>
+		
+		</main>	
+
+			<footer>
+				<p>Horário de funcionamento:</p>
+
+				<nav>
+					<ul>
+					Segunda à Sábado: 09:00 às 22:00 <br>
+					Domingos e Feriados: 10:00 às 23:00
+					</ul>
+				</nav>
+			</footer>
+		
 	</body>
 </html>

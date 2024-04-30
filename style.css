@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+* {
+margin: 0px;
+padding: 0px;
 
+}
 
 body{
 
-    background-color: #eeaa5d;
+    background-color: #F2A950;
     font-family: Arial, Helvetica, sans-serif;
    
 }
@@ -17,13 +21,12 @@ h1{
 
 h4{
     color: black;
-    background-color: #e98718;
+    background-color: #D9751E;
     text-align: center;
  
 }
 .text{
     color: aliceblue;
-
 }
 
 p{
@@ -36,7 +39,8 @@ text-align: center;
     text-align: center;
 }
 .right{
-
+    margin: auto;
+    padding: auto;
     text-align: right;
 }
 
@@ -48,10 +52,95 @@ table{ /*Cenralizando tabela*/
 
 a{
   
+    color: #590202;
     text-decoration: none;
 }
 
-img{
+img {
 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+}
+main {
+
+    padding: 20px;
+
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape{
+
+    background-color: #590202;
+    color: #000000;
+}
+
+/*card layout*/
+/* Estilos comuns para os cards */
+.secao4 {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.secao4-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+     a {
+        color: black;
+     }
+}
+
+.secao4-div-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(70% / 3 - 60px);
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #D9751E;
+    transition: all 0.5s ease;
+}
+
+.secao4-div-card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.secao4-div-card img {
+    width: 35%;
+    height: auto;
+}
+
+.secao4-div-card h3 {
+    margin-bottom: 0px;
+}
+
+/* Estilos para dispositivos moveis */
+@media (max-width: 768px) {
+    .secao4-div-card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    img {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+
+  /*rodape*/
+  footer {
+	background-color: #590202;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
 }
