@@ -13,8 +13,69 @@ body{
    
 }
 
+header{
+    background-color: #590202;
+    
+}
+
+header > h1 {
+
+    color: white;
+    text-align: center;
+}
+
+span#burguer{
+   background-color: #200404;
+   color: white;
+   display: block;
+   text-align: center;
+   padding: 10px;
+/*tag para fazer o cursor virar uma mão*/
+    cursor: pointer;
+}
+  /*com o hover quando passar o mouse tera interação*/
+span#burguer:hover{
+
+    background-color: #722d2d;
+}
+menu {
+    /*tag para lementos que se comportam como bloco*/
+    /*none para nao aparecer o menu*/
+        display: none;
+    }
+    
+    /*caminho para acessar a ul dentro do menu*/
+    menu > ul {
+        /*tag para tirar as bolinhas da lista nao ordenada*/
+        list-style-type: none;
+    
+    }
+    /*caminho para acessar a tag a dentro da ul dentro do menu*/
+    menu > ul > li > a{
+     /*tag para lementos que se comportam como bloco*/
+        display: block;
+    /*para dar espaçamento*/
+        padding: 10px;
+    /*tira o sublinhado do link*/   
+        text-decoration: none;
+    /*dando cor ao bloco*/    
+        background-color: #590202;
+    /*colocando cor na letra*/
+        color: white;
+    /*centralizando o texto*/
+        text-align: center;        
+    
+    }
+
+    /*com o hover quando passar o mouse tera interação*/
+
+    menu > ul > li > a:hover{
+
+        background-color: #a02c2c;
+    }
+    
 h1{
-    color: #000000;
+    color: black;
     
     text-align: center;
 }
@@ -71,12 +132,34 @@ main {
     flex-direction: column;
 }
 
+div#conteiner{
+
+    overflow-x: auto;
+}
 .rodape{
 
     background-color: #590202;
     color: #000000;
 }
 
+.botao{
+
+position:absolute;
+
+right:50px;
+margin:0px;
+padding:0px;
+font: bold 12px/24px arial, helvetica, sans-aerif;	
+padding:0px;
+text-decoration: none;
+text-align:center;	
+background-color: white;	
+width:130px;  
+height:30px;	
+display:block;	
+font-size: medium;
+border-radius: 15px;
+}
 /*card layout*/
 /* Estilos comuns para os cards */
 .secao4 {
@@ -90,9 +173,7 @@ main {
     justify-content: center;
     padding: 10px;
     text-align: center;
-     a {
-        color: black;
-     }
+  
 }
 
 .secao4-div-card {
@@ -106,6 +187,7 @@ main {
     border-radius: 15px;
     background-color: #D9751E;
     transition: all 0.5s ease;
+
 }
 
 .secao4-div-card:hover {
