@@ -24,7 +24,7 @@
 	</head>
 	
 	
-	<body>
+	<body onresize="mudouTamanho()">
 		<header>
 			<h1>Adventure Land</h1>
 			<!-- Menu Hamburguer -->
@@ -129,6 +129,13 @@
 			
 			<!--Codigo local js-->
 			<script>
+				function mudouTamanho(){
+					if(window.innerWidth >= 768){
+						itens.style.display = 'block'
+					} else {
+						itens.style.display = 'none'
+					}
+				}
 				function clickMenu(){
 					if (itens.style.display == 'block'){
 						itens.style.display = 'none'
