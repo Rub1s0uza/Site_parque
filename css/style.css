@@ -42,7 +42,7 @@ menu {
     /*tag para lementos que se comportam como bloco*/
     /*none para nao aparecer o menu*/
         display: none;
-  
+     
     }
     
     /*caminho para acessar a ul dentro do menu*/
@@ -218,7 +218,6 @@ border-radius: 15px;
       flex-direction: column;
     }
   }
-
 
   /*rodape*/
   footer {

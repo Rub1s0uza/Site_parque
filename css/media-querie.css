@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    /*para o hamburguer nao aparecer*/
+    span#burguer {
+   display: none;
+    }
+    /*para o menu aparecer*/
+    menu {
+    display: block;
+    }
+    /*para tornar o menu em blocos um do lado do outro*/
+    menu > ul > li {
+    display: inline-block;
+  
+    }
+
+
+    
+}
