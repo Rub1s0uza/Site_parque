@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 800px){
     /*para o hamburguer nao aparecer*/
     span#burguer {
    display: none;
+   font-size: medium;
+    }
+    p{
+        font-size: medium;
     }
     /*para o menu aparecer*/
     menu {
@@ -15,6 +19,6 @@
   
     }
 
-    font-size: 20px;
+   
     
 }
