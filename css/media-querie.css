@@ -1,6 +1,32 @@
 @charset "UTF-8";
 
-@media only screen and (min-width: 768px){
+
+ /* Versão para tablets e desktops */
+ @media only screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    header {
+        padding: 40px;
+    }
+    menu > ul {
+        justify-content: flex-end; /* Alinha o menu à direita na versão desktop */
+        display: flex; /* Exibe o menu na versão desktop */
+    }
+    menu > ul > li {
+        margin-right: 40px;
+    }
+    section {
+        margin: 40px;
+        padding: 40px;
+    }
+    span#burguer {
+        display: none; /* Oculta o botão hamburger em resoluções maiores que 767px */
+    }
+}
+
+/*versao celular*/
+@media only screen and (max-width: 767px){
     /*para o hamburguer nao aparecer*/
     span#burguer {
    display: none;
@@ -15,12 +41,16 @@
    cursor: pointer;
    z-index: 999; /* Garante que o botão hamburger esteja acima de outros elementos */
     }
+    span#burguer:focus{
+        outline: none; /* Remove a borda de foco */
+    }
     p{
         font-size: medium;
     }
     /*para o menu aparecer*/
     menu {
     display: block;
+    
     }
     /*para tornar o menu em blocos um do lado do outro*/
     menu > ul > li {
@@ -28,6 +58,8 @@
   
     }
 
-   
+    header {
+        padding: 15px;
+    }
     
 }
