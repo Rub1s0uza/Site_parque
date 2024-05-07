@@ -1,10 +1,19 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 800px){
+@media only screen and (min-width: 768px){
     /*para o hamburguer nao aparecer*/
     span#burguer {
    display: none;
-   font-size: medium;
+   display: block; /* Exibe o ícone do menu hamburguer apenas na versão móvel */
+   position: absolute; /* Posiciona o botão hamburger */
+   top: 20px;
+   right: 20px;
+   background: none;
+   border: none;
+   color: #fff;
+   font-size: 20px;
+   cursor: pointer;
+   z-index: 999; /* Garante que o botão hamburger esteja acima de outros elementos */
     }
     p{
         font-size: medium;
