@@ -32,7 +32,7 @@ span#burguer{
    background-color: #200404;
    color: white;
    display: block;
-   text-align: right;
+   text-align: center;
    padding: 25px;
 /*tag para fazer o cursor virar uma mão*/
     cursor: pointer;
