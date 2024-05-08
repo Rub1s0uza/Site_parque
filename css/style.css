@@ -110,6 +110,7 @@ text-align: center;
     text-align: right;
 }
 
+
 table{ /*Cenralizando tabela*/
     margin-left: auto;
     margin-right: auto;
@@ -141,11 +142,7 @@ div#conteiner{
 
     overflow-x: auto;
 }
-.rodape{
 
-    background-color: #590202;
-    color: #000000;
-}
 
 .botao{
 
@@ -230,4 +227,8 @@ border-radius: 15px;
 	padding: 20px;
 	text-align: center;
 	margin-top: 50px;
+    a{
+        
+        color: white;
+    }
 }
