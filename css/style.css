@@ -79,6 +79,9 @@ menu {
         background-color: #a02c2c;
     }
     
+    input{
+        border-radius: 15px;
+    }
 h1{
     color: black;
     
@@ -228,7 +231,7 @@ border-radius: 15px;
 	text-align: center;
 	margin-top: 50px;
     a{
-        
+
         color: white;
     }
 }
