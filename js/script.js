@@ -20,12 +20,10 @@ function clickMenu(){
 }
 
 
+// prompt faz uma pergunta
+let nome = prompt("Qual o seu nome?");
+window.alert('Seja bem vido(a) '+ nome ); 
+// + faz uma concatenação, ou seja adiciona o valor da variavel na frase
 
-
-// QUE PORRA É ESSA 
-///let opcao = confirm('Você é CORNO?');
-//if(opcao==true){
-  //  window.location.href='https://www.youtube.com/watch?v=08k0zv_e9yQ';
-//}else{window.location.href='https://www.youtube.com/shorts/tYIQuk_UEM8';}
 
 
